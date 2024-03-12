@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cek Resi Paket</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- NAVBAR START -->
+    <nav>
+      <img src="/img/cekResi.jpeg">
+      <h2>Cek Resi Paket</h2>
+    </nav>
+    <!-- NAVBAR END -->
+    
+    <!-- CONTENT START -->
+    <section>
+      <label for="kurir">Pilih Kurir</label>
+      <select id="listKurir" name="kurir">
+      </select>
+      <label for="resi">Masukkan No Resi</label>
+      <input id="resi" name="resi" type="text" placeholder="Contoh: 004282915083">
+      <button id="submit" type="submit">Cek Sekarang</button>
+    </section>
+    <!-- CONTENT END -->
+    
+    <!-- RESULT START -->
+    <p></p>
+    <main id="result">
+    <p>INFORMASI PENGIRIMAN</p>
+      <table>
+        <tr>
+          <th>Status</th>
+          <td id='status'></td>
+        </tr>
+        <tr>
+          <th>Layanan</th>
+          <td id="layanan"></td>
+        </tr>
+        <tr>
+          <th>Pengirim</th>
+          <td id='pengirim'></td>
+        </tr>
+        <tr>
+          <th>Asal</th>
+          <td id="asal"></td>
+        </tr>
+        <tr>
+          <th>Penerima</th>
+          <td id='penerima'></td>
+        </tr>
+        <tr>
+          <th>Tujuan</th>
+          <td id="tujuan"></td>
+        </tr>
+      </table>
+    </main>
+    <!-- RESULT END -->
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

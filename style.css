@@ -1,0 +1,74 @@
+*, html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: skyblue;
+  height: 50px;
+  margin-bottom: 16px;
+}
+
+nav img {
+  margin-left: 10px;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+}
+
+section select, input {
+  text-align: center;
+  margin: 10px 0px;
+  width : 70vw;
+  height: 30px;
+  outline: none;
+}
+
+section button {
+  width : 200px;
+  height: 30px;
+  border: none;
+  background-color: skyblue;
+}
+
+#result {
+  margin: 50px 10px 14px 14px;
+  display: none;
+}
+
+#result p {
+  margin-bottom: 10px;
+}
+#result table {
+  width: 70vw;
+}
+
+#result table tr th {
+  text-align: start;
+  border: 1px solid grey;
+  padding: 12px;
+  width: 10vw;
+  text-transform: uppercase;
+}
+
+#result table tr td {
+  text-align: start;
+  border: 1px solid grey;
+  text-align: center;
+  width: 40vw;
+  text-transform: uppercase;
+}
