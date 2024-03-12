@@ -43,6 +43,7 @@ section button {
   height: 30px;
   border: none;
   background-color: skyblue;
+  cursor: pointer;
 }
 
 #result {
